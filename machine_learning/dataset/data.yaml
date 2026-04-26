@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['bcircle', 'bcube', 'btriangle', 'mtcircle', 'mtcube', 'mttriangle', 'rcircle', 'rcube', 'rtriangle', 'wb', 'ycircle', 'ycube', 'ytriangle']
+
+roboflow:
+  workspace: robotics-project-vsdgg
+  project: shapes-oauf5
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robotics-project-vsdgg/shapes-oauf5/dataset/5
